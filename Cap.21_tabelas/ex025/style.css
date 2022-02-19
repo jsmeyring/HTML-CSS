@@ -26,4 +26,9 @@ td, th{
     font-weight: bolder;
     font-size: 30px;
 }
+tfoot{
+    background-color: gray;
+    color: white;
+    font-weight: bold;
+}
 
