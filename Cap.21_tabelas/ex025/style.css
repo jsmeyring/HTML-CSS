@@ -5,6 +5,12 @@ table{
     padding: 10px;
     border-collapse: collapse;
 }
+caption{
+    font-size: 1.2em;
+    font-weight: bold;
+    padding: 10px;
+    background-color: lightgray;
+}
 thead{
     border: 1px solid black ;
     background-color: gray;
