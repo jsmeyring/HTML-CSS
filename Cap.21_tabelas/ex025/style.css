@@ -1,0 +1,24 @@
+
+table{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    width: 400px;
+    height: 400px;
+    padding: 10px;
+    border-collapse: collapse;
+}
+td{
+    border: 1px solid black;
+    padding: 8px;
+    text-align: center;
+    vertical-align: middle;
+}
+/* Alinhamento de texto dentro das celulas
+-Por padrão, o texto fica alinhado a esquerda.
+-Para alinhar ao centro, usar o comando "text-align: center". Por padrão já vai ficar alinhado ao centro horizontalmente e verticalmente
+-Caso queira manter o texto no topo ou abaixo da celula, usar o comando "vertical-align: top ou botton */
+.numero{
+    text-align: right; /* caso queira que o numero fique alinhado a direita da celula, igual ao Excel*/
+    color: red;
+    font-weight: bolder;
+    font-size: 30px;
+}
