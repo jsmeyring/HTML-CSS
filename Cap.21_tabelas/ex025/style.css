@@ -17,7 +17,7 @@ thead, tfoot{
     color: white;
 }
 
-tbody > tr:nth-child(2n){
+tbody > tr:nth-child(even){ /* usar even (par) ou odd (impar) */
     background-color: lightgray;
 } 
 
