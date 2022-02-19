@@ -14,31 +14,38 @@
             HIERARQUIA DE TABELAS
 
             TABLE ==> Tabela
-                TABLE ROW ==> Linha de tabela
-                    TABLE HEADER ==> Cabeçalho de Tabela
-                    TABLE DATA ==> Dados de Tabela
+                TABLE ROW ==> Linha de tabela (TR)
+                    TABLE HEADER ==> Cabeçalho de Tabela (TH)
+                    TABLE DATA ==> Dados de Tabela (TD)
+            
+            ANATOMIA DE TABELAS GRANDES
+                TABLE
+                    THEAD ==> CABEÇALHO DA TABELA
+                         TR, TH. TD
+                    TBODY ==> CORPO DA TABELA
+                        TR, TH. TD
+                    TFOOT ==> RODAPÉ DA TABELA
+                        TR, TH. TD
         -->
     <table>
-        <tr> <!-- Primeira linha da tabela-->
-            <td>A1</td>
-            <td>B1</td>
-            <td>C1</td>
-        </tr>
-        <tr> <!-- Segunda linha da tabela-->
-            <td>A2</td>
-            <td class="numero">B2</td>
-            <td>C2</td>
-        </tr>
-        <tr> <!-- Terceira linha da tabela-->
-            <td>A3</td>
-            <td>B3</td>
-            <td>C3</td>
-        </tr>
-        <tr> <!-- Quarta linha da tabela-->
-            <td>A4</td>
-            <td>B4</td>
-            <td class="numero">C4</td>
-        </tr>
+        <thead> <!-- Cabeçalho da Tabela -->
+            <tr>
+                <th>UN (Estados)</th>
+                <th>Popução</th>
+            </tr>
+        </thead>
+        <tbody>
+            <td>São Paulo</td>
+            <td>46.649.132</td>
+        </tbody>
+        <tbody>
+            <td>Minas Gerais</td>
+            <td>21.411.923</td>
+        </tbody>
+        <tbody>
+            <td>Rio de Janeiro</td>
+            <td>17.463.349</td>
+        </tbody>
     </table>
 </body>
 </html>
