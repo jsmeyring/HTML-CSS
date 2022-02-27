@@ -1,0 +1,14 @@
+table{
+    border-collapse: collapse;
+}
+th, td{
+    border: 1px solid gray;
+    text-align: center;
+    padding: 10px;
+}
+.amarelo{
+    background-color: yellow;
+}
+.vermelho{
+    background-color: red;
+}
